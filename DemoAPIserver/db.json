@@ -1,1 +1,14 @@
-.
+{
+  "posts": [
+    { "id": 1, "title": "First Post", "views": 150 },
+    { "id": 2, "title": "Second Post", "views": 300 }
+  ],
+  "comments": [
+    { "id": 1, "text": "Nice post!", "postId": 1 },
+    { "id": 2, "text": "Very informative.", "postId": 2 }
+  ],
+  "profile": {
+    "name": "John Doe",
+    "age": 30
+  }
+}
